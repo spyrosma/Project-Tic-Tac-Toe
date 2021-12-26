@@ -15,10 +15,25 @@
     margin-bottom: 4%;
 }
 
+#start input[type=checkbox] {
+    display: inline;
+}
+
+#start input[type=radio] {
+    display: inline;
+}
+
 #start input[type=button] {
     font-size: 20px;
     padding: 3%;
     background-color: green;
+}
+
+#m1playermode {
+    display: none;
+}
+#m2playersmode {
+    display: block;
 }
 
 #restart {

@@ -12,11 +12,31 @@
     <h1 id="title">Tic Tac Toe</h1>
 
     <div id="start">
+        <label for="complay">Against Computer: </label>
+        <input type="checkbox" name="complay" id="complay">
+
+        <div id="m1playermode">
+            <h2>Please enter player name</h2>
+                <label for="pl1">Player 1</label>
+                <input type="text" name="pl1" id="pl1">
+                <p>Select Level: </p>
+                <label for="1">Easy</label>
+                <input type="radio" name="comlevel" id="1" value="1" checked>
+                <label for="2">Medium</label>
+                <input type="radio" name="comlevel" id="2" value="2">
+                <label for="3">Hard</label>
+                <input type="radio" name="comlevel" id="3" value="3">
+                
+            </div>
+
+        <div id="m2playersmode">
         <h2>Please enter player names</h2>
-        <label for="pl1">Player 1</label>
-        <input type="text" name="pl1" id="pl1">
-        <label for="pl2">Player 2</label>
-        <input type="text" name="pl2" id="pl2">
+            <label for="pl1">Player 1</label>
+            <input type="text" name="pl1" id="pl1">
+            <label for="pl2">Player 2</label>
+            <input type="text" name="pl2" id="pl2">
+            
+        </div>
         <input type="button" value="Start" id="startBtn">
     </div>
 
